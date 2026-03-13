@@ -10,15 +10,15 @@ form{
     margin: 6rem;
     width: 120rem;
     padding: 4rem;
-    border: 3px solid gray;
+    border: 3px solid var(--second-color);
     margin: 10px auto;
     border-radius: 1rem;
-    background-color: black;
-    box-shadow: 0px 0px 20px gray;
+    background-color: var(--text-bg-box);
+    box-shadow: 0px 0px 20px var(--second-color);
 }
 
 legend{
-    color: var(--text-color);
+    color: var(--text-title);
     font-size: 3rem;
 }
 
@@ -35,9 +35,10 @@ input{
     margin: 2rem 0;
     padding: 10px;
     width: 100%;
-    background-color: var(--border-color);
+    background-color: var(--second-color);
     border-radius: 10px;
     outline: none;
+    color: var(--text-color);
 }
 
 label{
@@ -61,11 +62,11 @@ fieldset{
 }
 
 input:focus{
-    box-shadow: 0px 0px 20px var(--border-color);
+    box-shadow: 0px 0px 20px var(--text-color);
 }
 
 input::placeholder{
-    color: rgba(90, 90, 90, 0.769);
+    color: var(--text-title);
 }
 
 button{
@@ -73,6 +74,7 @@ button{
     height: 3rem;
     margin: 1rem;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px var(--text-title);
 }
 
 .img_alien{
@@ -83,21 +85,23 @@ button{
     overflow: auto;
 }
 
-.nav_menu{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;   
-    background-color: gray;
+.text_area{
+    resize: vertical;
+    width: 100%;
+    height: 300px;
+    max-height: 500px;
+    background-color: var(--second-color);
+    border-radius: 10px;
+    padding: 10px;
+    color: var(--text-color);
 }
 
-.menu_list{
-    display: flex;
-    gap: 30px;
-    list-style: none;
-    color: white;
-    text-decoration: none;
-}
-
-.list_item{
+.text_area::placeholder{
+    color: var(--text-title);
+    font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
+}
+
+.text_area:focus{
+    box-shadow: 0px 0px 20px var(--text-color);
 }
