@@ -46,3 +46,8 @@ a{
     color: var(--text-title);
     background-color: var(--second-color);
 }
+
+section > p{
+    margin: 10 20;
+    padding: 20px;
+}

@@ -60,14 +60,18 @@
             <p>
                 En HTML existen diferentes etiquetas que permiten agregar texto dentro de una página web. Algunas de las
                 más utilizadas son las etiquetas de párrafo y encabezados, como:
+            </p>
             <pre>
                 &lt;p&gt;&lt;/p&gt;, &lt;h1&gt;&lt;/h1&gt;, &lt;h2&gt;&lt;/h2&gt;, &lt;h3&gt;&lt;/h3&gt;,
                 &lt;h4&gt;&lt;/h4&gt;, &lt;h5&gt;&lt;/h5&gt;, &lt;h6&gt;&lt;/h6&gt;
             </pre>
-            Estas etiquetas nos permiten mostrar texto con diferentes niveles de importancia dentro de la página. Sin
-            embargo, por sí solas pueden verse muy simples o poco atractivas para el usuario. Para mejorar su
-            apariencia, podemos utilizar CSS, que nos permite aplicar diferentes propiedades de estilo al texto, como el
-            tamaño, color, tipo de letra, alineación, entre otras.
+            <p>
+                Estas etiquetas nos permiten mostrar texto con diferentes niveles de importancia dentro de la página.
+                Sin
+                embargo, por sí solas pueden verse muy simples o poco atractivas para el usuario. Para mejorar su
+                apariencia, podemos utilizar CSS, que nos permite aplicar diferentes propiedades de estilo al texto,
+                como el
+                tamaño, color, tipo de letra, alineación, entre otras.
             <ul>
                 <li class="color">color: ; (cambia el color del texto) </li>
                 <li class="size">font-size: ; (cambia el tamaño del texto)</li>
@@ -90,16 +94,22 @@
                 cada elemento o etiqueta se representa como si fuera una caja. Esto significa que cualquier elemento
                 —como un párrafo, un título, una imagen, una lista o un contenedor— ocupa un espacio dentro de la
                 página.
+
                 Cada una de estas cajas puede contener contenido en su interior, como texto u otros elementos HTML.
                 Además, estas cajas pueden ser modificadas y estilizadas utilizando CSS para controlar su tamaño,
                 posición y apariencia dentro de la página.
+
                 El modelo de caja está compuesto principalmente por cuatro partes:
-                <ul>
-                    <li>Content (contenido): es el espacio donde se encuentra el texto, imagen u otro elemento.</li>
-                    <li>Padding: es el espacio interno que separa el contenido del borde de la caja.</li>
-                    <li>Border: es el borde que rodea la caja.</li>
-                    <li>Margin: es el espacio externo que separa una caja de otras cajas.</li>
-                </ul>
+            </p>
+
+            <ul>
+                <li>Content (contenido): es el espacio donde se encuentra el texto, imagen u otro elemento.</li>
+                <li>Padding: es el espacio interno que separa el contenido del borde de la caja.</li>
+                <li>Border: es el borde que rodea la caja.</li>
+                <li>Margin: es el espacio externo que separa una caja de otras cajas.</li>
+            </ul>
+
+            <p>
                 Comprender cómo funciona el Box Model es muy importante, ya que permite organizar correctamente los
                 elementos en la página y crear diseños más estructurados y visualmente agradables.
             </p>
@@ -107,17 +117,84 @@
 
         <section class="medidas" id="med">
             <h3 class="sub_subtitle">Medidas</h3>
-            En CSS para darles cierta medida a las cosas, podemos usar diferentes unidades de medida como
-            pixeles (px), rem(rem), etc.
-            los mas usados son eso dos, sabemos que 1px es un led de la pantalla y 1rem 
+            <p>
+                En CSS existen diferentes unidades de medida que se utilizan para definir el tamaño de los elementos
+                dentro
+                de una página web, como el ancho, alto, márgenes, tamaños de texto, entre otros.
 
+                Algunas de las unidades más utilizadas son:
+            </p>
 
+            <ul>
+                <li>Pixeles (px)</li>
+                <li>Rem (rem)</li>
+            </ul>
+
+            <p>
+                Los pixeles (px) son una unidad de medida absoluta. Un píxel representa un pequeño punto de luz en la
+                pantalla, por lo que cuando usamos px estamos definiendo un tamaño fijo para un elemento.
+
+                Por otro lado, rem (root em) es una unidad de medida relativa que depende del tamaño de la fuente del
+                elemento raíz del documento (generalmente el html). Normalmente, 1rem equivale a 16px, aunque este valor
+                puede cambiar si se modifica el tamaño de la fuente base en el documento.
+
+                Utilizar unidades como rem es muy útil para crear diseños más flexibles y adaptables, especialmente
+                cuando
+                se trabaja con páginas web responsivas.
+            </p>
         </section>
+
         <section class="selectores" id="select">
             <h3 class="sub_subtitle">Selectores</h3>
+            <p>
+                Los selectores en CSS son los que nos permiten aplicar estilos a elementos específicos de una página
+                web. Es decir, sirven para indicar a qué etiqueta o elemento HTML queremos cambiarle el estilo.
+
+                Gracias a los selectores podemos modificar propiedades como el color, tamaño, fuente, márgenes,
+                posición, entre muchas otras.
+
+                Existen diferentes tipos de selectores, por ejemplo:
+            </p>
+            <ul>
+                <li>Selector de etiqueta: aplica estilos a todas las etiquetas de un mismo tipo. <br>Ejemplo: p { } <br>
+                </li>
+                <li>Selector de clase: aplica estilos a los elementos que tienen una clase específica. <br>Ejemplo:
+                    .contenedor{ } <br></li>
+                <li>Selector de id: aplica estilos a un elemento único dentro de la página. <br>Ejemplo: #titulo { }
+                </li>
+            </ul>
+            <p>
+                Comprender cómo funcionan los selectores es muy importante, ya que nos permiten controlar de forma
+                precisa qué elementos de la página queremos modificar y cómo queremos que se vean.
+            </p>
         </section>
         <section class="display" id="dis">
             <h3 class="sub_subtitle">Display</h3>
+            <p>
+                Display
+
+                La propiedad display en CSS se utiliza para definir cómo se comporta un elemento dentro de la página web
+                y cómo se organiza con los demás elementos.
+
+                Cada elemento HTML tiene un tipo de visualización por defecto, pero con display podemos cambiar ese
+                comportamiento para controlar mejor el diseño de la página.
+
+                Algunos valores comunes de display son:
+            </p>
+
+                block: el elemento ocupa todo el ancho disponible y comienza en una nueva línea.
+
+                inline: el elemento solo ocupa el espacio necesario y se coloca en la misma línea que otros elementos.
+
+                inline-block: combina características de inline y block, permitiendo ajustar ancho y alto sin ocupar
+                toda la línea.
+
+                none: oculta el elemento, haciendo que no aparezca en la página.
+            <p>
+                Comprender la propiedad display es importante porque permite controlar cómo se organizan los elementos
+                dentro del diseño de una página web.
+            </p>
+
         </section>
         <section class="flex_box" id="fb">
             <h3 class="sub_subtitle"> FlexBox</h3>
