@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --color-mian: #605B56;
+    --second-color: #837A75;
+    --text-bg-box : #7DAA92;
+    --text-color: #C2FBEF;
+    --text-title: #c6eae2;
+} 
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.head_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--color-mian);
+}
+
+.logo{
+    height: 5rem;
+    background-color: var(--text-bg-box);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.list_menu{
+    display: flex;
+    gap: 20px;
+    font-size: 2rem;
+    
+}
+
+.item_menu{
+    list-style: none;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: var(--text-bg-box);
+}
+
+.link_menu{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: var(--color-mian);
+    color: var(--text-color);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+}
+
+.welcome_head{
+    background-color: var(--text-bg-box);
+    padding: 10px;
+    text-align: center;
+}
+
+.title{
+    font-size: 3.5rem;
+    color: var(--text-title);
+    margin-bottom: 10px;  
+}
+
+.pharagrap_head{
+    font-size: 2rem;
+}
