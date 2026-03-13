@@ -5,4 +5,44 @@
     --text-title: #c6eae2;
 } 
 
+section{
+    font-size: 2rem;
+    margin: 20px 0;
+    padding: 30px;
+}
 
+.sub_menu{
+    margin-top: 20px;
+}
+
+ul{
+    margin: 0px 50px;
+}
+
+.sub_subtitle{
+    color: var(--text-title);
+    background-color: var(--text-bg-box);
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.list_sub_menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.link_item{
+    border: 3px solid var(--text-bg-box);
+    border-radius: 20px;
+    padding: 15px;
+    color: var(--text-title);
+    background-color: var(--second-color);
+}
