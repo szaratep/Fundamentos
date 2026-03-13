@@ -27,14 +27,96 @@
         <div class="welcome_head">
             <h1 class="title">Conseptos de HTML y CSS</h1>
             <p class="pharagrap_head">
-               En esta pagina podra, leer y recordar algunos fundamentos de HTML y conceptos básicos necesarios para desarrollar una página web.
+                En esta pagina podra, leer y recordar algunos fundamentos de HTML, CSS y conceptos básicos necesarios
+                para desarrollar una página web.
             </p>
         </div>
 
-        <div class="Who_is_html">
-            <h2 class="sub_html">Que es html?</h2>
+        <section class="Who_is_html">
+            <article>
+                <h2 class="sub_html">Que es html?</h2>
+                <p>
+                    Recordemos que HTML no es un lenguaje de programación; es un lenguaje de marcado utilizado para
+                    estructurar y organizar el contenido de una página web. Funciona mediante el uso de etiquetas que
+                    permiten a los navegadores interpretar y renderizar el contenido correctamente. Para poder diseñar o
+                    crear una página web, es importante conocer algunos fundamentos básicos, como los que veremos a
+                    continuación.
+                </p>
 
-        </div>
+                <h3 class="sub_subtitle">Menu</h3>
+                <ul class="list_sub_menu">
+                    <li class="item"><a href="#pr" class="link_item">Propiedades</a></li>
+                    <li class="item"><a href="#bm" class="link_item">Box Model</a></li>
+                    <li class="item"><a href="#med" class="link_item">Medidas</a></li>
+                    <li class="item"><a href="#select" class="link_item">Selectores</a></li>
+                    <li class="item"><a href="#dis" class="link_item">Display</a></li>
+                    <li class="item"><a href="#fb" class="link_item">FlexBox</a></li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="propiedades" id="pr">
+            <h3 class="sub_subtitle">Propiedades</h3>
+            <p>
+                En HTML existen diferentes etiquetas que permiten agregar texto dentro de una página web. Algunas de las
+                más utilizadas son las etiquetas de párrafo y encabezados, como:
+            <pre>
+                &lt;p&gt;&lt;/p&gt;, &lt;h1&gt;&lt;/h1&gt;, &lt;h2&gt;&lt;/h2&gt;, &lt;h3&gt;&lt;/h3&gt;,
+                &lt;h4&gt;&lt;/h4&gt;, &lt;h5&gt;&lt;/h5&gt;, &lt;h6&gt;&lt;/h6&gt;
+            </pre>
+            Estas etiquetas nos permiten mostrar texto con diferentes niveles de importancia dentro de la página. Sin
+            embargo, por sí solas pueden verse muy simples o poco atractivas para el usuario. Para mejorar su
+            apariencia, podemos utilizar CSS, que nos permite aplicar diferentes propiedades de estilo al texto, como el
+            tamaño, color, tipo de letra, alineación, entre otras.
+            <ul>
+                <li class="color">color: ; (cambia el color del texto) </li>
+                <li class="size">font-size: ; (cambia el tamaño del texto)</li>
+                <li class="weigth">font-weight: ; (cambia el grosor de la liena)</li>
+                <li class="family">font-family: ; (cambia la fuente)</li>
+                <li class="style">font-style: ; (cambia el estilo, si es cursiva o no)</li>
+                <li class="decoration">text-decoration: ; (coloca decoracion, como lineas)</li>
+                <li class="transform">text-transform: ; (Cambia de letra mayuscula a minuscula o tipo titulo)</li>
+                <li class="shadow">text-shadow: ; (Le coloca una sombra al texto)</li>
+                <li class="height">line-height: ; (da un espacioentre parafos)</li>
+                <li class="spacing">letter-spacing: ; (da un espacio entre letras)</li>
+            </ul>
+            </p>
+        </section>
+
+        <section class="box_model" id="bm">
+            <h3 class="sub_subtitle">Box Model</h3>
+            <p>
+                El Box Model o modelo de caja es un concepto fundamental en el diseño de páginas web con CSS. En HTML,
+                cada elemento o etiqueta se representa como si fuera una caja. Esto significa que cualquier elemento
+                —como un párrafo, un título, una imagen, una lista o un contenedor— ocupa un espacio dentro de la
+                página.
+                Cada una de estas cajas puede contener contenido en su interior, como texto u otros elementos HTML.
+                Además, estas cajas pueden ser modificadas y estilizadas utilizando CSS para controlar su tamaño,
+                posición y apariencia dentro de la página.
+                El modelo de caja está compuesto principalmente por cuatro partes:
+                <ul>
+                    <li>Content (contenido): es el espacio donde se encuentra el texto, imagen u otro elemento.</li>
+                    <li>Padding: es el espacio interno que separa el contenido del borde de la caja.</li>
+                    <li>Border: es el borde que rodea la caja.</li>
+                    <li>Margin: es el espacio externo que separa una caja de otras cajas.</li>
+                </ul>
+                Comprender cómo funciona el Box Model es muy importante, ya que permite organizar correctamente los
+                elementos en la página y crear diseños más estructurados y visualmente agradables.
+            </p>
+        </section>
+        <section class="medidas" id="med">
+            <h3 class="sub_subtitle"> </h3>
+        </section>
+        <section class="selectores" id="select">
+            <h3 class="sub_subtitle"> </h3>
+        </section>
+        <section class="display" id="dis">
+            <h3 class="sub_subtitle"> </h3>
+        </section>
+        <section class="flex_box" id="fb">
+            <h3 class="sub_subtitle"> </h3>
+        </section>
+
     </main>
 
     <footer>
