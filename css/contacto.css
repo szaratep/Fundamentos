@@ -1,0 +1,103 @@
+:root{
+    --color-mian: #605B56;
+    --second-color: #837A75;
+    --text-bg-box : #7DAA92;
+    --text-color: #C2FBEF;
+    --text-title: #c6eae2;
+} 
+
+form{
+    margin: 6rem;
+    width: 120rem;
+    padding: 4rem;
+    border: 3px solid gray;
+    margin: 10px auto;
+    border-radius: 1rem;
+    background-color: black;
+    box-shadow: 0px 0px 20px gray;
+}
+
+legend{
+    color: var(--text-color);
+    font-size: 3rem;
+}
+
+label, input{
+    display: block;
+    font-size: 2rem;
+}
+
+.chek{
+    display: inline;
+}
+
+input{
+    margin: 2rem 0;
+    padding: 10px;
+    width: 100%;
+    background-color: var(--border-color);
+    border-radius: 10px;
+    outline: none;
+}
+
+label{
+    color: var(--text-color);    
+}
+
+fieldset{
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 10px var(--border-color);
+}
+
+.text-problem{
+    height: 100px;
+}
+
+.chek{
+    width: 20px;
+}
+
+input:focus{
+    box-shadow: 0px 0px 20px var(--border-color);
+}
+
+input::placeholder{
+    color: rgba(90, 90, 90, 0.769);
+}
+
+button{
+    width: 6rem;
+    height: 3rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.img_alien{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: none;
+    overflow: auto;
+}
+
+.nav_menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    background-color: gray;
+}
+
+.menu_list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.list_item{
+    font-size: 2rem;
+}

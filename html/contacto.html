@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./../css/styles.css">
+    <link rel="stylesheet" href="./../css/contacto.css">
     <title>Contacto</title>
 </head>
 
@@ -26,9 +27,41 @@
         <div class="welcome_head">
             <h1 class="title">Contacto</h1>
             <p class="pharagrap_head">
-                Hola, si quieres realizar algun trabajo conmigo, o necesitas ayuda sobre un tema especifico te recomiendo llenar el fomulario
+                Hola, si quieres realizar algun trabajo conmigo, o necesitas ayuda sobre un tema especifico te
+                recomiendo llenar el fomulario
             </p>
         </div>
+
+        <form action="">
+
+            <fieldset>
+                <legend>Informacion personal</legend>
+                <label for="name">Nombre:
+                    <input type="text" placeholder="Sebastian Zarate" id="name">
+                </label>
+
+                <label for="phone-number">Telefono:
+                    <input type="number" placeholder="+57 3152....." id="phone-number">
+                </label>
+
+                <label for="email">Correo:
+                    <input type="text" placeholder="Ejemplo@gmail.com" id="email">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Requerimiento</legend>
+                <label for="problem">
+                   <textarea name="text_area" id=""></textarea>
+                </label>
+
+                <input type="checkbox" id="chek" class="chek">
+                <label for="chek" class="chek">El tiempo de respuesta es de 5 a 6 dias, estas de acuerdo?</label>
+            </fieldset>
+
+            <button>Enviar</button>
+
+        </form>
     </main>
 
     <footer>
