@@ -80,10 +80,12 @@ footer{
     font-size: 2rem;
 }
 
-@media (max-width: 440px){
+@media (max-width: 720px){
     .item_menu{
         display: none;  
     }
+
+
 }
 
 @media (max-width: 350px){
