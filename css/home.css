@@ -77,14 +77,20 @@ section > p{
 
 @media (max-width: 540px){
     .list_sub_menu{
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
         width: 300px;
-        height: 200px;
+        height: 300px;
     }
 } 
 
-@media (max-width: 350px){
+@media (max-width: 395px){
     .list_sub_menu{
-        width: 200px;
+        justify-content: center;
+        margin: 20px auto;
+        gap: 20px;
+        width: 300px;
         height: 200px;
     }
 } 
