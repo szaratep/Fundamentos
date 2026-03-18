@@ -11,7 +11,7 @@ html{
 :root{
     --color-mian: #605B56;
     --second-color: #837A75;
-    --text-bg-box : #7DAA92;
+    --text-bg-box : #7daa92;
     --text-color: #C2FBEF;
     --text-title: #c6eae2;
     --media-bacgound: #837a75f2;
@@ -21,6 +21,10 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+p, h1, h2, h3, ul, pre{
+    font-family: "Quintessential", serif;
 }
 
 .menu_log{
@@ -109,8 +113,8 @@ footer{
         left: 0;
         width: 0;
         height: 0;
-        opacity: 0;
         z-index: 2;
+        display: none;
     }
 
     .list_menu{
@@ -123,6 +127,7 @@ footer{
         position: absolute;
         left: 0;
         top: 0;
+        margin: 0;
     }
 
     .logo_hamburger{
@@ -136,6 +141,7 @@ footer{
         height: 20rem;
         width: 100%;
         opacity: 1;
+        display: block;
     }
 }
 
