@@ -11,16 +11,20 @@
 
 <body>
     <header>
-        <nav class="head_menu">
-            <div>
-                <img src="./../img/develop-svgrepo-com.svg" alt="" class="logo">
+        <div class="main-div">
+            <div class="menu_log">
+                <a href="./index.html"><img src="./../img/develop-svgrepo-com.svg" alt="" class="logo"></a>
             </div>
-            <ul class="list_menu">
-                <li class="item_menu"><a href="./index.html" class="link_menu">INICIO</a></li>
-                <li class="item_menu"><a href="./galeria.html" class="link_menu">GALERIA</a></li>
-                <li class="item_menu"><a href="#" class="link_menu">CONTACTO</a></li>
-            </ul>
-        </nav>
+            <input type="checkbox" id="check-menu">
+            <label for="check-menu"><img src="./../img/menu-2.svg" alt="" class="logo_hamburger"></label>
+            <nav class="head_menu">
+                <ul class="list_menu">
+                    <li class="item_menu"><a href="./index.html" class="link_menu">INICIO</a></li>
+                    <li class="item_menu"><a href="./galeria.html" class="link_menu">GALERIA</a></li>
+                    <li class="item_menu"><a href="#" class="link_menu">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -52,7 +56,7 @@
             <fieldset>
                 <legend>Solicitud</legend>
                 <label for="problem">
-                   <textarea name="" id="" class="text_area" placeholder="escribe tu solicitud aqui"></textarea>
+                    <textarea name="" id="" class="text_area" placeholder="escribe tu solicitud aqui"></textarea>
                 </label>
 
                 <input type="checkbox" id="chek" class="chek">
