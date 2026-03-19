@@ -217,12 +217,25 @@ footer{
     .content-dialog{
         width: 350px;
     }
-}
 
-@media(max-width: 720px){
-    .welcome_head{
+        .welcome_head{
         padding: 10px;
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 520px){
+    .log_in{
+        width: 400px;
+        height: auto;
+    }
+
+    .content-dialog{
+        width: 250px;
+    }
+
+    .logo-net{
+    width: 150px;
     }
 }
 
@@ -250,17 +263,3 @@ footer{
 
 }
 
-@media (max-width: 520px){
-    .log_in{
-        width: 400px;
-        height: auto;
-    }
-
-    .content-dialog{
-        width: 250px;
-    }
-
-    .logo-net{
-    width: 150px;
-    }
-}
