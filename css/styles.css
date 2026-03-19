@@ -185,7 +185,7 @@ footer{
     .list_menu{
         background-color: var(--media-bacgound);
         width: 100%;
-        height: 20rem;
+        height: auto;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -193,6 +193,7 @@ footer{
         left: 0;
         top: 0;
         margin: 0;
+        padding: 20px
     }
 
     .logo_hamburger{
