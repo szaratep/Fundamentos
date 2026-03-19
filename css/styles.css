@@ -151,6 +151,11 @@ footer{
     padding: 10px;
     border: 2px solid  #ff1900;
     border-radius: 10px;
+    background-color: black;
+}
+
+.input-dialog::placeholder{
+    color:  rgba(255, 255, 255, 0.764);
 }
 
 .help{
@@ -225,6 +230,24 @@ footer{
     p, h1, h2, h3, li, pre{
         font-size: 1rem;
     }
+
+    .log_in{
+        width: 200px;
+        height: auto;
+    }
+
+    .content-dialog{
+        width: 150px;
+    }
+
+    .logo-net{
+    width: 100px;
+    }
+
+    .font-main{
+        font-size: 2rem;
+    }
+
 }
 
 @media (max-width: 520px){
@@ -235,5 +258,9 @@ footer{
 
     .content-dialog{
         width: 250px;
+    }
+
+    .logo-net{
+    width: 150px;
     }
 }
