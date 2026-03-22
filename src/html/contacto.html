@@ -27,6 +27,8 @@
                     <li class="item_menu"><a href="./index.html" class="link_menu">INICIO</a></li>
                     <li class="item_menu"><a href="./galeria.html" class="link_menu">GALERIA</a></li>
                     <li class="item_menu"><a href="#" class="link_menu">CONTACTO</a></li>
+                    <button class="item_menu button_singIn" command="show-modal"
+                        commandfor="log_in">Registrarse</button>
                 </ul>
             </nav>
         </div>
@@ -46,15 +48,15 @@
             <fieldset>
                 <legend>Informacion personal</legend>
                 <label for="name">Nombre:
-                    <input type="text" placeholder="Sebastian Zarate" id="name">
+                    <input type="text" placeholder="Sebastian Zarate" id="name" class="input">
                 </label>
 
                 <label for="phone-number">Telefono:
-                    <input type="number" placeholder="+57 3152....." id="phone-number">
+                    <input type="number" placeholder="+57 3152....." id="phone-number" class="input">
                 </label>
 
                 <label for="email">Correo:
-                    <input type="text" placeholder="Ejemplo@gmail.com" id="email">
+                    <input type="text" placeholder="Ejemplo@gmail.com" id="email" class="input">
                 </label>
             </fieldset>
 
@@ -64,13 +66,35 @@
                     <textarea name="" id="" class="text_area" placeholder="escribe tu solicitud aqui"></textarea>
                 </label>
 
-                <input type="checkbox" id="chek" class="chek">
+                <input type="checkbox" id="chek" class="input chek">
                 <label for="chek" class="chek">El tiempo de respuesta es de 5 a 6 dias, estas de acuerdo?</label>
             </fieldset>
 
-            <button class="but">Enviar</button>
+            <button class="but button">Enviar</button>
 
         </form>
+
+        <dialog class="log_in" id="log_in">
+            <div class="dialog-main">
+                <div class="logo-net">
+                    <img src="./../img/Netflix_Logomark.webp" alt="logo netflix" class="net">
+                </div>
+                <hr>
+                <div class="content-dialog">
+                    <h2 class="font-main">Ingresa tu info para iniciar sesión</h2>
+                    <p class="font-main pharagrap-dialog">O bien, comienza con una cuenta nueva.</p>
+                    <form action="">
+                        <input type="text" placeholder="Email o Numero de celular" class="font-main input-dialog">
+                    </form>
+                    <div class="font-main button-continue">Continuar</div>
+                    <p class="font-main help">Obtener ayuda</p>
+                    <p class="font-main pharagrap-dialog reCAPTCHA">Esta página está protegida por Google reCAPTCHA
+                        para comprobar que no eres un
+                        robot. Más info</p>
+                </div>
+            </div>
+        </dialog>
+
     </main>
 
     <footer>
@@ -79,6 +103,14 @@
             Derechos reservados
         </p>
     </footer>
+
+    <script>
+        let modal = document.getElementById('log_in');
+
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) modal.close()
+        })
+    </script>
 
 </body>
 

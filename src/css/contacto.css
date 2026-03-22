@@ -6,7 +6,7 @@
     --text-title: #090921;
 } 
 
-form{
+.form{
     margin: 6rem;
     width: 120rem;
     padding: 4rem;
@@ -22,7 +22,7 @@ legend{
     font-size: 3rem;
 }
 
-label, input{
+label, .input{
     display: block;
     font-size: 2rem;
 }
@@ -31,7 +31,7 @@ label, input{
     display: inline;
 }
 
-input{
+.input{
     margin: 2rem 0;
     padding: 10px;
     width: 100%;
@@ -61,11 +61,11 @@ fieldset{
     width: 20px;
 }
 
-input:focus{
+.input:focus{
     box-shadow: 0px 0px 20px var(--text-color);
 }
 
-input::placeholder{
+.input::placeholder{
     color: var(--text-title);
 }
 
@@ -76,7 +76,7 @@ input::placeholder{
     background-color: var(--text-bg-box);
 }
 
-button{
+.button{
     width: 6rem;
     height: 3rem;
     margin: 1rem;

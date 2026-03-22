@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Quintessential&display=swap"
         rel="stylesheet">
-    <title>Conseptos de HTML y CSS</title>
+    <title>Conceptos de HTML y CSS</title>
 </head>
 
 <body>
@@ -21,12 +21,14 @@
                 <a href="./index.html"><img src="./../img/develop-svgrepo-com.svg" alt="logo develop" class="logo"></a>
             </div>
             <input type="checkbox" id="check-menu">
-            <label for="check-menu"><img src="./../img/menu-2.svg" alt="logo de menu" class="logo_hamburger"></label>
+            <label for="check-menu"><img src="./../img/menu-2.svg" alt="logo de menú" class="logo_hamburger"></label>
             <nav class="head_menu">
                 <ul class="list_menu">
                     <li class="item_menu"><a href="#" class="link_menu">INICIO</a></li>
-                    <li class="item_menu"><a href="./galeria.html" class="link_menu">GALERIA</a></li>
+                    <li class="item_menu"><a href="./galeria.html" class="link_menu">GALERÍA</a></li>
                     <li class="item_menu"><a href="./contacto.html" class="link_menu">CONTACTO</a></li>
+                    <button class="item_menu button_singIn" command="show-modal"
+                        commandfor="log_in">Registrarse</button>
                 </ul>
             </nav>
         </div>
@@ -36,14 +38,14 @@
         <div class="welcome_head">
             <h1 class="title">Conceptos de HTML y CSS</h1>
             <p class="pharagrap_head">
-                En esta pagina podra, leer y recordar algunos fundamentos de HTML, CSS y conceptos básicos necesarios
+                En esta página podrá leer y recordar algunos fundamentos de HTML, CSS y conceptos básicos necesarios
                 para desarrollar una página web.
             </p>
         </div>
 
         <section class="Who_is_html">
             <article>
-                <h2 class="sub_html">Que es html?</h2>
+                <h2 class="sub_html">¿Qué es HTML?</h2>
                 <p>
                     Recordemos que HTML no es un lenguaje de programación; es un lenguaje de marcado utilizado para
                     estructurar y organizar el contenido de una página web. Funciona mediante el uso de etiquetas que
@@ -51,12 +53,11 @@
                     crear una página web, es importante conocer algunos fundamentos básicos, como los que veremos a
                     continuación.
                 </p>
-
             </article>
         </section>
 
         <section>
-            <h3 class="sub_subtitle sub_menu">Menu</h3>
+            <h3 class="sub_subtitle sub_menu">Menú</h3>
             <ul class="list_sub_menu">
                 <li class="item"><a href="#pr" class="link_item">Propiedades</a></li>
                 <li class="item"><a href="#bm" class="link_item">Box Model</a></li>
@@ -84,22 +85,20 @@
             </pre>
             <p>
                 Estas etiquetas nos permiten mostrar texto con diferentes niveles de importancia dentro de la página.
-                Sin
-                embargo, por sí solas pueden verse muy simples o poco atractivas para el usuario. Para mejorar su
+                Sin embargo, por sí solas pueden verse muy simples o poco atractivas para el usuario. Para mejorar su
                 apariencia, podemos utilizar CSS, que nos permite aplicar diferentes propiedades de estilo al texto,
-                como el
-                tamaño, color, tipo de letra, alineación, entre otras.
+                como el tamaño, color, tipo de letra, alineación, entre otras.
             <ul>
-                <li class="color">color: ; (cambia el color del texto) </li>
-                <li class="size">font-size: ; (cambia el tamaño del texto)</li>
-                <li class="weigth">font-weight: ; (cambia el grosor de la liena)</li>
-                <li class="family">font-family: ; (cambia la fuente)</li>
-                <li class="style">font-style: ; (cambia el estilo, si es cursiva o no)</li>
-                <li class="decoration">text-decoration: ; (coloca decoracion, como lineas)</li>
-                <li class="transform">text-transform: ; (Cambia de letra mayuscula a minuscula o tipo titulo)</li>
-                <li class="shadow">text-shadow: ; (Le coloca una sombra al texto)</li>
-                <li class="height">line-height: ; (da un espacioentre parafos)</li>
-                <li class="spacing">letter-spacing: ; (da un espacio entre letras)</li>
+                <li class="propiedad_text color">color: ; (cambia el color del texto)</li>
+                <li class="propiedad_text size">font-size: ; (cambia el tamaño del texto)</li>
+                <li class="propiedad_text weigth">font-weight: ; (cambia el grosor de la línea)</li>
+                <li class="propiedad_text family">font-family: ; (cambia la fuente)</li>
+                <li class="propiedad_text style">font-style: ; (cambia el estilo; si es cursiva o no)</li>
+                <li class="propiedad_text decoration">text-decoration: ; (coloca decoración, como líneas)</li>
+                <li class="propiedad_text transform">text-transform: ; (cambia de letra mayúscula a minúscula o tipo título)</li>
+                <li class="propiedad_text shadow">text-shadow: ; (le coloca una sombra al texto)</li>
+                <li class="propiedad_text height">line-height: ; <br>(da un espacio entre párrafos)</li>
+                <li class="propiedad_text spacing">letter-spacing: ; (da un espacio entre letras)</li>
             </ul>
             </p>
         </section>
@@ -136,19 +135,18 @@
             <h3 class="sub_subtitle">Medidas</h3>
             <p>
                 En CSS existen diferentes unidades de medida que se utilizan para definir el tamaño de los elementos
-                dentro
-                de una página web, como el ancho, alto, márgenes, tamaños de texto, entre otros.
+                dentro de una página web, como el ancho, alto, márgenes, tamaños de texto, entre otros.
 
                 Algunas de las unidades más utilizadas son:
             </p>
 
             <ul>
-                <li>Pixeles (px)</li>
+                <li>Píxeles (px)</li>
                 <li>Rem (rem)</li>
             </ul>
 
             <p>
-                Los pixeles (px) son una unidad de medida absoluta. Un píxel representa un pequeño punto de luz en la
+                Los píxeles (px) son una unidad de medida absoluta. Un píxel representa un pequeño punto de luz en la
                 pantalla, por lo que cuando usamos px estamos definiendo un tamaño fijo para un elemento.
 
                 Por otro lado, rem (root em) es una unidad de medida relativa que depende del tamaño de la fuente del
@@ -156,8 +154,7 @@
                 puede cambiar si se modifica el tamaño de la fuente base en el documento.
 
                 Utilizar unidades como rem es muy útil para crear diseños más flexibles y adaptables, especialmente
-                cuando
-                se trabaja con páginas web responsivas.
+                cuando se trabaja con páginas web responsivas.
             </p>
         </section>
 
@@ -189,8 +186,6 @@
         <section class="display" id="dis">
             <h3 class="sub_subtitle">Display</h3>
             <p>
-                Display
-
                 La propiedad display en CSS se utiliza para definir cómo se comporta un elemento dentro de la página web
                 y cómo se organiza con los demás elementos.
 
@@ -211,15 +206,15 @@
                 Comprender la propiedad display es importante porque permite controlar cómo se organizan los elementos
                 dentro del diseño de una página web.
             </p>
-
         </section>
+
         <section class="flex_box" id="fb">
-            <h3 class="sub_subtitle"> FlexBox</h3>
+            <h3 class="sub_subtitle">FlexBox</h3>
             <p>
                 Flexbox (Flexible Box Layout) es un sistema de diseño en CSS que permite organizar y alinear elementos
                 de forma flexible dentro de un contenedor.
 
-                Para utilizar flexbox, primero debemos convertir un elemento en un contenedor flexible usando:
+                Para utilizar Flexbox, primero debemos convertir un elemento en un contenedor flexible usando:
 
                 display: flex;
 
@@ -230,10 +225,10 @@
             </p>
 
             <ul>
-                <li>Alinear elementos horizontal o verticalmente</li>
-                <li>Distribuir el espacio entre los elementos</li>
-                <li>Crear diseños más adaptables y ordenados</li>
-                <li>Algunas propiedades importantes de flexbox son:</li>
+                <li>Alinear elementos horizontal o verticalmente.</li>
+                <li>Distribuir el espacio entre los elementos.</li>
+                <li>Crear diseños más adaptables y ordenados.</li>
+                <li>Algunas propiedades importantes de Flexbox son:</li>
                 <li>justify-content: alinea los elementos horizontalmente.</li>
                 <li>align-items: alinea los elementos verticalmente.</li>
                 <li>flex-direction: define si los elementos se organizan en fila o en columna.</li>
@@ -241,18 +236,46 @@
 
             <p>
                 Flexbox es muy utilizado en el desarrollo web moderno porque facilita la creación de diseños responsivos
-                y bien organizados
+                y bien organizados.
             </p>
         </section>
+
+        <dialog class="log_in" id="log_in">
+            <div class="dialog-main">
+                <div class="logo-net">
+                    <img src="./../img/Netflix_Logomark.webp" alt="logo netflix" class="net">
+                </div>
+                <hr>
+                <div class="content-dialog">
+                    <h2 class="font-main">Ingresa tu información para iniciar sesión</h2>
+                    <p class="font-main pharagrap-dialog">O bien, comienza con una cuenta nueva.</p>
+                    <form action="">
+                        <input type="text" placeholder="Email o número de celular" class="font-main input-dialog">
+                    </form>
+                    <div class="font-main button-continue">Continuar</div>
+                    <p class="font-main help">Obtener ayuda</p>
+                    <p class="font-main pharagrap-dialog reCAPTCHA">Esta página está protegida por Google reCAPTCHA
+                        para comprobar que no eres un robot. Más información.</p>
+                </div>
+            </div>
+        </dialog>
 
     </main>
 
     <footer>
         <p>
-            Desarollado por: Sebastian Zarate <br>
+            Desarrollado por: Sebastián Zarate <br>
             Derechos reservados
         </p>
     </footer>
+
+    <script>
+        let modal = document.getElementById('log_in');
+
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) modal.close()
+        })
+    </script>
 
 </body>
 
